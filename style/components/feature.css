@@ -1,0 +1,131 @@
+.feature{
+    width: 100%;
+    padding: 100px 0;
+    background: #1d293e;
+}
+.feature-inner{
+    width: 100%;
+    text-align: center;
+}
+.feature-inner p{
+    text-transform: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+.feature-inner h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 36px;
+    color: #fff;
+}
+.feature-inner span{
+    color: #7564e5;
+}
+.feature-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heading-border{
+    width: 20px;
+    display: inline-block;
+    margin-top: -50px;
+    position: relative;
+}
+.heading-border::before{
+    content: "";
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    left: -55px;
+    top: 50%;
+    background-color: #7564e5;
+    margin-top: 26px;
+}
+.heading-border span{
+    height: 2px;
+    width: 16px;
+    background: #7564e5;
+    display: inline-block;
+}
+.heading-border span:nth-child(1){
+    margin-bottom: -46px
+}
+.heading-border span:nth-child(2){
+    margin-bottom: -23px
+}
+.heading-border span:nth-child(3){
+    margin-top: 2px 0px;
+}
+.heading-border::after{
+    content: "";
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    right: -55px;
+    top: 50%;
+    background-color: #7564e5;
+    margin-top: 26px;
+}
+
+.feature-member{
+    cursor: pointer;
+    width: 25%;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 30px 0px #1d293e;
+    border: 1px solid #384967;
+    border-radius: 10px;
+    transition: .5s;
+}
+.feature-member:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.feature-member i:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.feature-member span{
+    background: transparent;
+}
+.feature-member i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    border: 1px solid #7564e5;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-size: 35px;
+    display: inline-block;
+    color: #7564e5;
+}
+
+.feature-member h4{
+    font-size: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.4s ease;
+    font-weight: 600;
+}
+.feature-member p{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0;
+}

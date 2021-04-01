@@ -92,7 +92,7 @@
 }
 .feature-member i:hover{
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #7564e5;
     transform: scale(1.1);
     transition: .5s;
 }

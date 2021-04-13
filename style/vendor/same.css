@@ -55,7 +55,7 @@
 @media screen and (max-width: 375px){
     body{
         background-color: #1d293e;
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
     .info-details{
         width: 100% !important;

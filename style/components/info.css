@@ -4,12 +4,11 @@
     background-image: url('../../images/bg.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0px;
+    background-attachment: fixed;
     background-size: cover;
     position: relative;
     z-index: 0;
     padding: 200px 0 140px; 
-    /* height: 700px; */
-
 }
 .info::after{
     position: absolute;

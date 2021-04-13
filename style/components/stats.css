@@ -1,0 +1,44 @@
+.stats{
+    width: 100%;
+    background-image: url(../../images/counterup.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+    position: relative;
+    z-index: 0;
+}
+.stats::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(7, 1, 90, 0.6);
+    opacity: .8;
+}
+.stats-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stats-items{
+    width: 23%;
+    text-align: center;
+}
+.stats-items h1{
+    font-size: 45px;
+    color: #7564e5;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.stats-items h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}

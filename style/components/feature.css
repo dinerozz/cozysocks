@@ -93,7 +93,8 @@
 .feature-member i:hover{
     color: #fff;
     border: 1px solid #7564e5;
-    transform: scale(1.1);
+    background: #7564e5;
+    transform: rotateZ(360deg);
     transition: .5s;
 }
 .feature-member span{

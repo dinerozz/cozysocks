@@ -2,7 +2,7 @@
     width: 70%;
     margin: 0 auto;
     /* margin: 0px 0px 20px; */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 @media screen and (max-width: 1024px){
     .container{

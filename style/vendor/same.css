@@ -5,10 +5,13 @@
 }
 @media screen and (max-width: 1024px){
     .container{
-        width: 90%;
+        width: 90% !important;
     }
 }
 @media screen and (max-width: 768px){
+    .container{
+        width: 40% !important;
+    }
     .header-links ul{
         position: absolute;
         height: 350px;
@@ -24,7 +27,7 @@
         transition: transform 0.5s ease-in;
     }
     .header-links ul li{
-        margin: 10px 0;
+        margin: 10px 0 !important;
     }
     .header-icon{
         display: block !important;
@@ -78,8 +81,7 @@
         width: 100% !important;
     }
     body{
-        background-color: #1d293e;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .header-icon{
         display: block !important;
@@ -104,7 +106,7 @@
         width: 100% !important;
     }
     .portfolio-links{
-        width: 100%;
+        width: 100% !important;
         margin-top: 60px;
     }
     .stats-items{

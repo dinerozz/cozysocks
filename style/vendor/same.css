@@ -2,7 +2,6 @@
     width: 70%;
     margin: 0 auto;
     /* margin: 0px 0px 20px; */
-    /* overflow-x: hidden; */
 }
 @media screen and (max-width: 1024px){
     .container{
@@ -41,7 +40,11 @@
     .about-img{
         width: 100% !important;
     }
-    .rating-items{
+    .portfolio-links a{
+        width: 40%;
+        margin-top: 60px;
+    }
+    .stats-items{
         width: 40% !important;
         margin-bottom: 30px;
     }
@@ -51,14 +54,44 @@
     .blog-member{
         width: 45% !important;
     }
+    .input-form{
+        flex-direction: column !important; 
+    }
+    .input:first-child > input{
+        margin-bottom: 20px !important;
+    }
+    .input:nth-child(3){
+        width: 45% !important;
+    }
+    .form .input > input{
+        width: 45% !important;
+    }   
+    .msg > textarea{
+        width: 45%;
+    } 
+    #email > input{
+        width: 55% !important;
+    }
 }
 @media screen and (max-width: 375px){
+    .container{
+        width: 100% !important;
+    }
     body{
         background-color: #1d293e;
         overflow-x: hidden;
     }
+    .header-icon{
+        display: block !important;
+        cursor: pointer;
+        margin-right: 100px;
+    }
     .info-details{
         width: 100% !important;
+    }
+    .info-details h2{
+        width: 100% !important;
+        font-size: 44px;
     }
     .feature-member{
         width: 100% !important;
@@ -70,7 +103,11 @@
     .about-img{
         width: 100% !important;
     }
-    .rating-items{
+    .portfolio-links{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .stats-items{
         width: 100% !important;
         margin-bottom: 30px;
     }
@@ -83,4 +120,23 @@
     .testimonials{
         width: 100% !important;
     }
+    .portfolio{
+        width: 100% !important;
+    }
+    .input-form{
+        flex-direction: column !important; 
+    }
+    .input:first-child > input{
+        margin-bottom: 20px !important;
+    }
+    #email > input{
+        width: 50% !important;
+    }
+    .form .input > input{
+        width: 100% !important;
+    }
+    .msg > textarea{
+        width: 100%;
+    }
+    
 }

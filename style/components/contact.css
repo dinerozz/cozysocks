@@ -8,15 +8,18 @@
     text-align: center;
 }
 .contact-items{
-    width: 27%;
+    width: 28%;
     margin-top: 60px;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .contact-inner h2{
     margin-top: 20px;
     margin-bottom: 10px;
     font-weight: 600;
-    position: relative;
+    /* position: relative; */
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 40px;
@@ -62,9 +65,114 @@
     text-align: center;
     border-radius: 50%;
 }
-.contact-form{
+
+.wrapper{
+    max-width: 700px;
+    margin: 50px auto;
+    background: transparent;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.address{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #a9aacd;
+}
+.inner-address p{
+    font-size: 12px;
+}
+.inner-address .fas{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.form-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.input-form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inner-msg{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.input > input{
+    background-color: transparent;
+    border: 1px solid #384967;
+    width: 260px;
+    padding: 20px 40px;
+    outline: none;
+}
+input:focus{
+    transition: .3s;
+    border: 1px solid #7564e5;
+    color: #fff;
+}
+#email{
+    margin: 0 auto;
+}
+#email > input{
+    background-color: transparent;
+    border: 1px solid #384967;
+    width: 617px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    outline: none;
+}
+#email > input:focus{
+    transition: .3s;
+    color: #fff;
+    border: 1px solid #7564e5;
+}
+.msg > textarea{
+    border: 0;
+    outline: none;
+    width: 94%;
+    padding: 10px 20px;
+    height: 132px;
+    border: 1px solid #384967;
+    background-color: transparent;
+}
+textarea:focus{
+    color: #fff;
+    transition: .3s;
+    border: 1px solid #7564e5;
+}
+
+.btn{
+    border: 1px solid #7564e5;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #7564e5;
+    transition: all 0.5s ease;
+    border-radius: 25px;
+}
+.btn:hover{
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    transition: all 0.5s ease-out
 }

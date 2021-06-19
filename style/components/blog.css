@@ -1,33 +1,33 @@
 .blog{
     width: 100%;
     padding: 100px 0;
-    background-color: #1d293e;
+    background: linear-gradient(to right, #d4e4ef 0%,#86aecc 100%);
 }
 .blog-inner{
     width: 100%;
-    text-align: center;
+    /* text-align: left; */  
 }
 .blog-inner h2{
-    margin-top: 20px;
-    margin-bottom: 10px;
+    font-family: "Oswald",sans-serif;
+    color: #222;
+    line-height: 1.1;
+    font-size: 36px;
     font-weight: 600;
-    position: relative;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 40px;
-    line-height: 36px;
-    color: #fff;
 }
 .blog-inner p{
-    text-transform: none;
-    color: #fff;
+    color: #444;
+    font-family: "Roboto",sans-serif;
     font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0;
-    line-height: 26px;
+    line-height: 1.667;
+}
+.blog-inner p:hover{
+    color: #007bff;
 }
 .blog-inner span{
-    color: #7564e5;
+    padding-bottom: 8px;
+    font-size: 36px;
+    font-weight: 600;
 }
 .blog-items{
     width: 100%;
@@ -37,11 +37,16 @@
     flex-wrap: wrap;
 }
 .blog-member{
-    margin-top: 30px;
+    margin-top: 60px;
     width: 30%;
     box-shadow: 0px 5px 30px 0px #1d293e;
-    border: 1px solid #384967;
+    border: 1px solid linear-gradient(to right, #d4e4ef 0%,#86aecc 100%);
     overflow: hidden;
+    transition: .3s ease-in-out;
+}
+.blog-member:hover{
+    transition: .3s ease-in-out;
+    transform: translateY(-20px);
 }
 .blog-img img:hover{
     transform: scale(1.1);
@@ -63,14 +68,14 @@
 }
 .blog-details a{
     margin: 0 0 15px 0px;
-    color: #fff;
+    color: #222;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 22px;
     text-decoration: none;
 }
 .blog-details ul{
-    color: #7564e5;
+    color: #666;
 }
 .blog-details ul li{
     display: inline-block;
@@ -80,7 +85,7 @@
 }
 .blog-details h3{
     margin: 0 0 15px 0px;
-    color: #fff;
+    color: #222;
 }
 .blog-details p{
     font-weight: 400;
@@ -97,12 +102,12 @@
     transition: .3s;
 }
 .blog-info a:hover{
-    color: #7564e5;
+    color: #007bff;
     transition: .3s;
 }
 .blog-details .icons{
     position: absolute;
-    top:-30px;
+    top: -20px;
     border-radius: 50%;
     overflow: hidden;
 }

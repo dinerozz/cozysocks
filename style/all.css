@@ -2,15 +2,13 @@
 @import url('vendor/reset.css');
 @import url('vendor/same.css');
 @import url('components/header.css');
-@import url('components/main_banner.css');
-@import url('components/preview.css');
-@import url('components/popular_market.css');
-@import url('components/register.css');
-@import url('components/parallax-banner.css');
-@import url('components/best-sellers.css');
-@import url('components/slider.css');
-@import url('components/blog.css');
-@import url('components/footer.css');
 @import url('components/about.css');
-@import url('components/location.css');
-/* @import url('components/product-card.css'); */
+@import url('components/info.css');
+@import url('components/feature.css');
+@import url('components/portfolio.css');
+@import url('components/stats.css');
+@import url('components/team.css');
+@import url('components/testimonials.css');
+@import url('components/blog.css');
+@import url('components/contact.css');
+@import url('components/footer.css');

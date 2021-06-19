@@ -1,109 +1,144 @@
 .container{
     width: 70%;
     margin: 0 auto;
+    /* margin: 0px 0px 20px; */
 }
 @media screen and (max-width: 1024px){
     .container{
-        width: 90%;
+        width: 90% !important;
     }
-    .header-links ul{
-        position: absolute;
-        height: 350px;
-        width: 100%;
-        background-color: #fff;
-        flex-direction: column !important;
-        justify-content: flex-start !important;
-        align-items: flex-start !important;
-        top: 70px;
-        left: 0;
-        z-index: 1 !important;
-        transform: translateY(-120%);
-        transition: transform 0.5s ease-in;
-    }
-    .header-links ul li{
-        margin: 10px 0;
-    }
-    .header-icon{
-        display: block !important;
-        cursor: pointer;
-    }  
 }
 @media screen and (max-width: 768px){
+    .container{
+        width: 40% !important;
+    }
     .header-links ul{
         position: absolute;
         height: 350px;
         width: 100%;
-        background-color: #fff;
+        background-color: #1d293e;
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: flex-start !important;
-        top: 70px;
+        top: 60px;
         left: 0;
-        z-index: 1 !important;
+        z-index: 0;
         transform: translateY(-120%);
         transition: transform 0.5s ease-in;
     }
     .header-links ul li{
-        margin: 10px 0;
+        margin: 10px 0 !important;
     }
     .header-icon{
         display: block !important;
         cursor: pointer;
     }
-    .main_banner{
-        width: 100% !important;
-        /* margin-bottom: 100px; */
+    .feature-member{
+        width: 40% !important;
     }
-    .banner-img{
+    .about-info{
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
+    .about-img{
         width: 100% !important;
     }
-    .preview{
-        width: 100% !important;
+    .portfolio-links a{
+        width: 40%;
+        margin-top: 60px;
     }
-    .parallax-banner{
-        width: 100% !important;
+    .stats-items{
+        width: 40% !important;
+        margin-bottom: 30px;
+    }
+    .team-members{
+        width: 40% !important;
     }
     .blog-member{
         width: 45% !important;
     }
-    .feature-member{
-        width: 40% !important;
+    .input-form{
+        flex-direction: column !important; 
     }
-    .footer-social{
-        width: 40% !important;
-        margin-bottom: 50px;
+    .input:first-child > input{
+        margin-bottom: 20px !important;
     }
-    .footer-link{
-        width: 40% !important;
-        margin-bottom: 50px;
+    .input:nth-child(3){
+        width: 45% !important;
     }
-    .footer-help{
-        width: 40% !important;
-    }
-    .footer-email{
-        width: 40% !important;
+    .form .input > input{
+        width: 45% !important;
+    }   
+    .msg > textarea{
+        width: 45%;
+    } 
+    #email > input{
+        width: 55% !important;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px){
+    .container{
+        width: 100% !important;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    .header-icon{
+        display: block !important;
+        cursor: pointer;
+        margin-right: 100px;
+    }
+    .info-details{
+        width: 100% !important;
+    }
+    .info-details h2{
+        width: 100% !important;
+        font-size: 44px;
+    }
     .feature-member{
+        width: 100% !important;
+    }
+    .about-info{
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
+    .about-img{
+        width: 100% !important;
+    }
+    .portfolio-links{
+        width: 100% !important;
+        margin-top: 60px;
+    }
+    .stats-items{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .team-members{
         width: 100% !important;
     }
     .blog-member{
         width: 100% !important;
     }
-    .footer-social{
-        width: 100% !important;
-        margin-bottom: 50px;
-    }
-    .footer-link{
-        width: 100% !important;
-        margin-bottom: 50px;
-    }
-    .footer-help{
+    .testimonials{
         width: 100% !important;
     }
-    .footer-email{
+    .portfolio{
         width: 100% !important;
     }
-
+    .input-form{
+        flex-direction: column !important; 
+    }
+    .input:first-child > input{
+        margin-bottom: 20px !important;
+    }
+    #email > input{
+        width: 50% !important;
+    }
+    .form .input > input{
+        width: 100% !important;
+    }
+    .msg > textarea{
+        width: 100%;
+    }
+    
 }

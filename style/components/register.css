@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+
+}
+.form{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form h2{
+    display: block;
+}
+a{
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+    margin: 10px 0;
+}
+.form-reg{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.msg{
+    border: 2px solid orange;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.logout{
+    color: #b7625c; 
+}

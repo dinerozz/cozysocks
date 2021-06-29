@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(135deg, #f2f9fe 0%,#d6f0fd 100%);
+}
+.admin-body{
+    width: 100%;
+}
+.card-image img{
+    width: 25%;
+    margin: 0;
+    border-radius: 15px;
+}
+table td{
+    margin-top: 0;
+}
+input, textarea{
+    width: 300px !important;
+}
+table{
+    border: 1px solid rgb(190, 185, 185);
+    margin-top: 10px;
+}
+.admin-inner{
+    text-align: center;
+}
+.admin-inner h1{
+    font-size: 30px;
+    color: #222;
+}
+.user-adm{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.user-profile{
+    width: 100%;
+}
+.user-avatar{
+    width: 80%;
+}
+.user-avatar img{
+    border-radius: 15px;
+    width: 100%;
+}
+td,th{
+    border: 1px solid rgb(190, 185, 185);
+}
+.card-image{
+    border-right: 1px solid rgb(190, 185, 185);
+    border-left: 1px solid rgb(190, 185, 185);
+    border-bottom: 1px solid rgb(190, 185, 185);
+}
+.card-image a{
+    display: block;
+    width: 25%;
+    margin: 5px;
+}
+.card-image img{
+    margin: 5px;
+}

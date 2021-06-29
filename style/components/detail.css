@@ -1,0 +1,151 @@
+.details{
+    width: 100%;
+    padding: 100px 0;
+    background: linear-gradient(to right, #d4e4ef 0%,#86aecc 100%);
+}
+.details-header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.details-items{
+    display: flex;
+    align-items: left;
+    justify-content: left; 
+}
+.detail-img{
+    margin-top: 40px;
+    width: 40%;
+    /* float: left; */
+}
+.detail-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.detail-mob-img{
+    margin-top: 40px;
+    width: 100%;
+    display: none;
+    /* float: left; */
+}
+.detail-mob-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.detail-info{
+    margin-top: 25px;
+}
+.detail-info h2{
+    font-size: 30px;
+    padding: 12px 50px;
+
+}
+.detail-info h5{
+    padding: 2px 50px;
+    color: #333;
+    font-style: italic;
+    font-weight: light;
+    text-decoration: underline;
+}
+.detail-specs{
+    padding: 2px 35px;  
+}
+.detail-specs ul{
+    margin-top: 5px;
+}
+.detail-specs li{
+    margin-top: 5px;
+}
+.buy-btn a{
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 600;
+    padding: 12px 50px;
+    transition: .7s;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.buy-btn a:hover{
+    transition: .7s;
+    border: 1px solid #384aeb;
+    background: radial-gradient(circle, rgba(232,219,225,1) 0%, rgba(64,41,230,1) 100%);
+}
+.buy-buttn a{
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 600;
+    padding: 12px 50px;
+    transition: .7s;
+    text-decoration: none;
+    margin-top: 25px;
+    display: none;
+}
+.buy-buttn a:hover{
+    transition: .7s;
+    border: 1px solid #384aeb;
+    background: radial-gradient(circle, rgba(232,219,225,1) 0%, rgba(64,41,230,1) 100%);
+}
+i{
+    padding-right: 5px
+}
+.availibility-arrow-down{
+    padding-left: 5px;
+}
+.detail-availibility{
+    padding: 5px 50px;
+}
+.detail-availibility h4{
+    font-style: italic;
+}
+.availibility-bar{
+    margin-top: 4px;
+    border-radius: 20px;
+    width: 100px;
+    height: 10px;
+    border: 1px solid #222;
+}
+.availibility{
+    border-radius: 20px;
+    width: 75%;
+    height: 8px;
+    background-color: tomato;
+}
+.detail-stats{
+    display: flex;
+    padding: 5px 50px;
+}
+.detail-stats  p{
+    margin-right: 10px;
+    display: inline-block;
+}
+.heartt i{
+    font-size: 30px;
+    color: crimson;
+}
+.comment{
+    font-size: 30px;
+    color: rgba(47, 103, 156, 0.767);
+}
+.views{
+    font-size: 30px;
+    color: rgb(29, 24, 25);
+}
+
+.details-description-header h2{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.details-description p{
+    font-size: 20px;
+    color:rgb(29, 24, 25)
+}
+.details-description span{
+    font-style: italic;
+    text-decoration: underline;
+}

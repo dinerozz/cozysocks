@@ -1,178 +1,152 @@
 .contact{
     width: 100%;
-    padding: 100px 0;
-    background-color: #1d293e;
+    background: linear-gradient(135deg, #f2f9fe 0%,#d6f0fd 100%);
+    padding: 200px 0;
+}
+.contact-main-title{
+    font-weight: 300;
+    font-size: 50px;
 }
 .contact-inner{
     width: 100%;
+}
+.content_centered{
     text-align: center;
 }
-.contact-items{
-    width: 28%;
-    margin-top: 60px;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.contact-inner h2{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
-    /* position: relative; */
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-size: 40px;
-    line-height: 36px;
-    color: #fff;
-}
-.contact-inner p{
-    text-transform: none;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 26px;
-}
-.contact-inner span{
-    color: #7564e5;
-}
-.contact-single{
-    border: 1px solid #384967;
-    padding: 10px 10px 10px 10px;
-}
-.contact-single h3{
+
+.contact-title{
+    margin: 10px 0;
+    font-weight: 700;
+    border-bottom: 5px solid rgb(226, 224, 210);
+    padding-bottom: 10px;
     font-size: 30px;
-    margin: 10px 10px 10px 10px;
-    font-weight: 600;
-    color: #fff;
-}
-.single-contact-items{
-    list-style: none;
-}
-.contact-single ul li{
-    font-size: 14px;
-    color: #fff;
-    line-height: 60px;
-}
-.single-contact-items i{
-    margin: 10px 10px 10px 10px;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    background: #7564e5;
     line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
 }
-
-.wrapper{
-    max-width: 700px;
-    margin: 50px auto;
-    background: transparent;
-    padding: 40px;
+.content_centered p{
+    font-size: 18px;
 }
-h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    margin-bottom: 50px;
-    font-size: 35px;
+label{
+    font-weight: 600;
+    font-size: 16px;
 }
-.address{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #a9aacd;
-}
-.inner-address p{
-    font-size: 12px;
-}
-.inner-address .fas{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.form-title{
-    font-size: 25px;
-    margin-bottom: 20px;
-    color: #fff;
+.select_centered{
     text-align: center;
 }
-.input-form{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.custom-select select{
+    background-color: rgb(255, 255, 255) ;
+    border-color: rgb(204, 204, 204) ;
+    text-align: left ;
+    border-radius: 5px ;
+    color: rgb(0, 0, 0) ;
+    font-size: 21px ;
+    padding: 10px ;
+    margin: 10px auto 20px auto ;
+    width: 90% ;
+    border-style: solid ;
+    border-width: 1px ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%) ;
+    height: 50px ;
+}
+.custom-select select:hover{
+    font-size: 21px ;
+    width: 90% ;
+    padding: 10px ;
+    margin: 10px auto 20px auto ;
+    border-radius: 5px ;
+    border-color: rgb(255, 88, 0) ;
+    border-style: solid ;
+    border-width: 1px ;
+    background-color: rgb(255, 255, 255) ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%) ;
+    color: rgb(43, 61, 105) ;
+}
+.tab input{
+    background-color: rgb(255, 255, 255) ;
+    border-color: rgb(204, 204, 204) ;
+    text-align: left ;
+    border-radius: 5px ;
+    color: rgb(0, 0, 0) ;
+    font-size: 21px ;
+    padding: 10px ;
+    /* margin: 10px auto 20px auto ; */
+    width: 90% ;
+    border-style: solid ;
+    border-width: 1px ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%) ;
+    height: 50px ;
+}
+.tab input:hover{
+    font-size: 21px ;
+    width: 90% ;
+    padding: 10px ;
+    /* margin: 10px auto 20px auto ; */
+    border-radius: 5px ;
+    border-color: rgb(255, 88, 0) ;
+    border-style: solid ;
+    border-width: 1px ;
+    background-color: rgb(255, 255, 255) ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%) ;
+    color: rgb(43, 61, 105) ;   
 }
 
-.inner-msg{
-    width: 100%;
-    margin-bottom: 20px;
+.tab textarea{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+    text-align: left;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 21px ;
+    padding: 10px ;
+    /* margin: 10px auto 20px auto; */
+    width: 90% ;
+    border-style: solid;
+    border-width: 1px ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0%) ;
+    height: 120px;
 }
-.input > input{
-    background-color: transparent;
-    border: 1px solid #384967;
-    width: 260px;
-    padding: 20px 40px;
+.tab textarea:hover{
+    font-size: 21px ;
+    width: 90% ;
+    padding: 10px ;
+    /* margin: 10px auto 20px auto ; */
+    border-radius: 5px ;
+    border-color: rgb(255, 88, 0) ;
+    border-style: solid ;
+    border-width: 1px ;
+    background-color: rgb(255, 255, 255) ;
+    transition: all 0.5s ease ;
+    box-shadow: 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%), 0 3px 5px -1px rgb(0 0 0 / 20%) ;
+    color: rgb(43, 61, 105) ;   
+}
+.tab textarea:focus{
     outline: none;
-}
-input:focus{
-    transition: .3s;
-    border: 1px solid #7564e5;
-    color: #fff;
-}
-#email{
-    margin: 0 auto;
-}
-#email > input{
-    background-color: transparent;
-    border: 1px solid #384967;
-    width: 617px;
-    margin-bottom: 20px;
-    padding: 20px 40px;
-    outline: none;
-}
-#email > input:focus{
-    transition: .3s;
-    color: #fff;
-    border: 1px solid #7564e5;
-}
-.msg > textarea{
-    border: 0;
-    outline: none;
-    width: 94%;
-    padding: 10px 20px;
-    height: 132px;
-    border: 1px solid #384967;
-    background-color: transparent;
-}
-textarea:focus{
-    color: #fff;
-    transition: .3s;
-    border: 1px solid #7564e5;
-}
-
-.btn{
-    border: 1px solid #7564e5;
-    padding: 20px 20px;
-    cursor: pointer;
-    color: #fff;
-    background-color: #7564e5;
     transition: all 0.5s ease;
-    border-radius: 25px;
+    border-color: rgb(255, 88, 0);
 }
-.btn:hover{
-    background: #333;
-    color: #fff;
-    border: 1px solid #333;
-    transition: all 0.5s ease-out
+input.invalid {
+    background-color: #ffdddd;
+}
+.tab{
+    display: none;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.dot.active {
+    opacity: 1;
+}
+.dot.finish {
+    background-color: #b6d3b7;
 }

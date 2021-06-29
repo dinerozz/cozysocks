@@ -1,144 +1,402 @@
 .container{
-    width: 70%;
+    /* width: 70%; */
+    max-width: 1280px;
     margin: 0 auto;
-    /* margin: 0px 0px 20px; */
 }
-@media screen and (max-width: 1024px){
+@media (max-width: 1200px){
     .container{
-        width: 90% !important;
+        max-width: 970px;
     }
 }
-@media screen and (max-width: 768px){
+@media (max-width: 992px){
     .container{
-        width: 40% !important;
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        max-width: 750px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        /* width: 90%; */
+    }
+    body{
+        width: 1150px;
     }
     .header-links ul{
         position: absolute;
         height: 350px;
         width: 100%;
-        background-color: #1d293e;
+        background-color: #fff;
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: flex-start !important;
-        top: 60px;
+        top: 70px;
         left: 0;
-        z-index: 0;
+        z-index: 1 !important;
         transform: translateY(-120%);
         transition: transform 0.5s ease-in;
     }
     .header-links ul li{
-        margin: 10px 0 !important;
+        margin: 10px 0;
     }
     .header-icon{
         display: block !important;
         cursor: pointer;
-    }
-    .feature-member{
-        width: 40% !important;
-    }
-    .about-info{
-        width: 100% !important;
-        margin-bottom: 100px;
-    }
-    .about-img{
+    }  
+    iframe{
         width: 100% !important;
     }
-    .portfolio-links a{
-        width: 40%;
-        margin-top: 60px;
-    }
-    .stats-items{
-        width: 40% !important;
-        margin-bottom: 30px;
-    }
-    .team-members{
-        width: 40% !important;
-    }
-    .blog-member{
-        width: 45% !important;
-    }
-    .input-form{
-        flex-direction: column !important; 
-    }
-    .input:first-child > input{
-        margin-bottom: 20px !important;
-    }
-    .input:nth-child(3){
-        width: 45% !important;
-    }
-    .form .input > input{
-        width: 45% !important;
-    }   
-    .msg > textarea{
-        width: 45%;
-    } 
-    #email > input{
-        width: 55% !important;
-    }
+
+
 }
-@media screen and (max-width: 375px){
-    .container{
-        width: 100% !important;
+@media screen and (max-width: 768px){
+    .header-links ul{
+        position: absolute;
+        height: 350px;
+        width: 100%;
+        background-color: #fff;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        top: 70px;
+        left: 0;
+        z-index: 1 !important;
+        transform: translateY(-120%);
+        transition: transform 0.5s ease-in;
     }
-    body{
-        overflow-x: hidden !important;
+    .header-links ul li{
+        margin: 10px 0;
     }
     .header-icon{
         display: block !important;
         cursor: pointer;
-        margin-right: 100px;
     }
-    .info-details{
+    .main_banner{
+        width: 100% !important;
+        /* margin-bottom: 100px; */
+    }
+    .banner-img{
         width: 100% !important;
     }
-    .info-details h2{
-        width: 100% !important;
-        font-size: 44px;
-    }
-    .feature-member{
+    .banner-img img{
         width: 100% !important;
     }
-    .about-info{
-        width: 100% !important;
-        margin-bottom: 100px;
-    }
-    .about-img{
+    .preview{
         width: 100% !important;
     }
-    .portfolio-links{
+    .preview-items{
         width: 100% !important;
-        margin-top: 60px;
     }
-    .stats-items{
-        width: 100% !important;
-        margin-bottom: 30px;
-    }
-    .team-members{
+    .parallax-banner{
         width: 100% !important;
     }
     .blog-member{
+        width: 45% !important;
+    }
+    .feature-member{
+        width: 40% !important;
+    }
+    .footer-social{
+        width: 40% !important;
+        margin-bottom: 50px;
+    }
+    .footer-link{
+        width: 40% !important;
+        margin-bottom: 50px;
+    }
+    .footer-help{
+        width: 40% !important;
+    }
+    .footer-email{
+        width: 40% !important;
+    }
+    .about-box-inner{
         width: 100% !important;
     }
-    .testimonials{
-        width: 100% !important;
+    .about-box-inner-header{
+        font-size: 40px !important;
     }
-    .portfolio{
-        width: 100% !important;
+    .about-box-inner p{
+        font-size: 30px !important;
     }
-    .input-form{
-        flex-direction: column !important; 
-    }
-    .input:first-child > input{
-        margin-bottom: 20px !important;
-    }
-    #email > input{
+    .about-box-inner img{
         width: 50% !important;
     }
-    .form .input > input{
+    .about-header h1{
+        margin-bottom: 20px;
+    }
+    .location{
         width: 100% !important;
     }
-    .msg > textarea{
+    .location-inner{
         width: 100%;
     }
+    .location-inner h1{
+        font-size: 30px !important;
+    }
+    iframe{
+        width: 100% !important;
+    }
+    .contact{
+        width: 100% !important;
+    }
+    .custom-select select{
+        width: 100% !important;
+    }
+    .tab input{
+        width: 100% !important;
+    }
+    .tab textarea{
+        width: 100% !important;
+    }
+    option{
+        width: 150px !important;
+    }
+    .details{
+        width: 100% !important;
+    }
+    .details-header h1{
+        width: 100% !important;
+        font-size: 40px !important;
+    }
+    .details-items{
+        width: 40% !important;
+    }
+    .detail-img{
+        width: 100% !important;
+    }
+    .detail-img img{
+        width: 100% !important;
+    }
+    .detail-info h2{
+        width: 100%;
+        font-size: 40px !important;
+    }
+    .detail-info h5{
+        font-size: 25px !important;
+    }
+    .details-availibility h4{
+        font-size: 25px !important;
+    }
+    .details-description{
+        width: 100% !important;
+    }
+    .details-description-header h2{
+        font-size: 45px !important;
+    }
+    .details-description p{
+        width: 100% !important;
+        font-size: 35px !important;
+    }
+    .detail-specs li{
+        font-size: 30px !important;
+        margin-top: 5px !important;
+    }
+    .details-header h1{
+        font-size: 50px !important;
+    }
+    .detail-mob-img{
+        margin-top: 10px !important;
+        width: 100% !important;
+        display: block !important;
+        /* float: left; */
+    }
+    .buy-btn {
+        margin-left: 20px !important;
+    }
+    .heartt i{
+        font-size: 40px !important;
+        color: crimson;
+    }
+    .comment{
+        font-size: 40px !important;
+        color: rgba(47, 103, 156, 0.767);
+    }
+    .views{
+        font-size: 40px !important;
+        color: rgb(29, 24, 25);
+    }
+    .detail-stats  p{
+        font-size: 40px !important;
+    }
+    .availibility-bar{
+        margin-top: 4px !important;
+        border-radius: 20px !important;
+        width: 130px !important;
+        height: 26px !important;
+        border: 1px solid #222;
+    }
+    .availibility{
+        border-radius: 20px !important;
+        width: 75% !important;
+        height: 24px !important;
+        background-color: tomato;
+    }
+
+}
+@media screen and (max-width: 425px) {
+
+    .buy-btn a{
+        display: none !important;
+    }
+
+    .buy-buttn a{
+        display: block !important;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 375px) {
     
+    .main-title{
+        font-size: 30px;
+    }
+    .contact{
+        width: 100% !important;
+    }
+    .tab input{
+        width: 100% !important;
+    }
+    .tab textarea{
+        width: 100% !important;
+    }
+    .custom-select select{
+        width: 50% !important;
+    }
+    .feature-member{
+        width: 100% !important;
+    }
+    .blog-member{
+        width: 100% !important;
+    }
+    .footer-social{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .footer-link{
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+    .footer-help{
+        width: 100% !important;
+    }
+    .footer-email{
+        width: 100% !important;
+    }
+    .about-box-inner{
+        width: 100% !important;
+    }
+    .about-box-inner-header{
+        font-size: 40px;
+    }
+    .about-box-inner p{
+        font-size: 26px;
+    }
+    .about-box-inner img{
+        width: 40%;
+    }
+    .about-header h1{
+        margin-bottom: 20px;
+    }
+    .location{
+        width: 100% !important;
+    }
+    .location-inner{
+        width: 100%;
+    }
+    .location-inner h1{
+        font-size: 30px !important;
+    }
+    iframe{
+        width: 100% !important;
+    }
+    .details{
+        width: 100% !important;
+    }
+    .details-header h1{
+        width: 100% !important;
+        font-size: 40px !important;
+    }
+    .detail-img{
+        width: 100% !important;
+    }
+    .detail-img img{
+        width: 100% !important;
+    }
+    .details-items{
+        display: flex !important;
+        align-items: center !important;
+    }
+    .detail-info h2{
+        width: 100%;
+        font-size: 40px !important;
+    }
+    .detail-info h5{
+        font-size: 25px !important;
+    }
+    .details-availibility h4{
+        font-size: 25px !important;
+    }
+    .details-description{
+        width: 100% !important;
+    }
+    .details-description-header h2{
+        font-size: 45px !important;
+    }
+    .details-description p{
+        width: 100% !important;
+        font-size: 35px !important;
+    }
+    .detail-specs li{
+        font-size: 30px !important;
+        margin-top: 5px !important;
+    }
+    .details-header h1{
+        font-size: 50px !important;
+    }
+    .buy-btn a{
+        display: none !important;
+    }
+    .buy-buttn a{
+        display: block !important;
+        margin-bottom: 20px;
+    }
+    .detail-mob-img{
+        margin-top: 40px !important;
+        width: 100% !important;
+        display: block !important;
+        /* float: left; */
+    }
+    .detail-stats  p{
+        font-size: 40px !important;
+    }
+    .heartt i{
+        font-size: 40px !important;
+        color: crimson;
+    }
+    .comment{
+        font-size: 40px !important;
+        color: rgba(47, 103, 156, 0.767);
+    }
+    .views{
+        font-size: 40px !important;
+        color: rgb(29, 24, 25);
+    }
+    .availibility-bar{
+        margin-top: 4px !important;
+        border-radius: 20px !important;
+        width: 130px !important;
+        height: 26px !important;
+        border: 1px solid #222;
+    }
+    .availibility{
+        border-radius: 20px !important;
+        width: 75% !important;
+        height: 24px !important;
+        background-color: tomato;
+    }
 }

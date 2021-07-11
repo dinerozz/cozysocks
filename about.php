@@ -13,7 +13,7 @@
         <div class="container">
             <div class="about-box">
                 <div class="avatar">
-                    <img src="images/avatar.png">
+                    <img src="images/avatar.png" alt="">
                 </div>
                 <div class="about-header">
                     <h1><span class="topline">cozy</span> <span class="underline">socks</span></h1>
@@ -22,9 +22,9 @@
                 </div>
             </div>
             <div class="about-box-inner">
-                <img src="images/blog-1.jpg" class="right-img">
-                <img src="images/blog-2.jpg" class="right-img">
-                <img src="images/blog-3.jpg" class="right-img">
+                <img src="images/blog-1.jpg" class="right-img" alt="">
+                <img src="images/blog-2.jpg" class="right-img" alt="">
+                <img src="images/blog-3.jpg" class="right-img" alt="">
 
                 <p><span class="about-box-inner-header">About us</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Labore sunt placeat sapiente non, dignissimos eveniet deleniti 

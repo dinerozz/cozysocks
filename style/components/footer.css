@@ -31,11 +31,14 @@
 }
 .footer-social ul{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 20px;
 }
 .footer-social ul li{
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-social ul li a{
     width: 40px;

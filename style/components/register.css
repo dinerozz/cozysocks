@@ -1,7 +1,8 @@
 body{
     box-sizing: border-box;
-
+    background: linear-gradient(135deg, #f2f9fe 0%,#d6f0fd 100%);
 }
+
 .form{
     height: 100vh;
     display: flex;
@@ -12,7 +13,7 @@ body{
     display: block;
 }
 a{
-    color: #7c9ab7;
+    color: #678db1;
     font-weight: bold;
     text-decoration: none;
 }
@@ -28,15 +29,38 @@ input{
     margin: 10px 0;
     padding: 10px;
     border: unset;
-    border-bottom: 2px solid #e3e3e3;
+    background-color: transparent;
+    border-bottom: 2px solid #bbb7b7;
     outline: none;
 }
-button{
+input:focus{
+    border-bottom: 2px solid #5cb7a0;
+}
+.register-btn, .login-btn{
     padding: 10px;
     background: #e3e3e3;
     border: unset;
     cursor: pointer;
+    transition: .3s;
+    outline: none;
 }
+.register-btn:hover{
+    transition: .3s;
+    background: #b8adad;
+}
+.login-btn:hover{
+    transition: .3s;
+    background: #b8adad;
+}
+.login-btn:hover i{
+    color: #fff;
+}
+.error{
+    border-bottom: 2px solid red;
+}
+/* .g-recaptcha{
+    padding: 1px !important;
+} */
 .msg{
     border: 2px solid orange;
     border-radius: 3px;
@@ -44,6 +68,46 @@ button{
     font-weight: bold;
     text-align: center;
 }
+.none{
+    display: none;
+}
 .logout{
     color: #b7625c; 
+}
+.img_label {
+    width: 400px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border-bottom: 2px solid #e3e3e3;
+    background: linear-gradient(to top right, #3eadc9, #6749ea 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+    color: #9e9a9a;
+}
+.signin_ico{
+    color: #9e9a9a;
+    /* font-size: 30px; */
+}
+
+.img_label i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.img_label:hover {
+    color: white;
+    background-position: bottom left;
+}
+    
+.img {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
 }

@@ -1,6 +1,11 @@
 <?php
     session_start();
-    include "config/database.php";
+    require_once 'config/database.php';
+
+
+    if($db->connect_error){
+        echo $db->connect_error;
+    }
     $title = $_POST['title'];
     $description = $_POST['description'];
     $cost = $_POST['cost'];
@@ -10,6 +15,7 @@
     $sizes = $_POST['sizes'];
     $sex = $_POST['sex'];
     $season = $_POST['season'];
+    $date_time = $_POST['date_time'];
     
 
     //INSERT INTO 'table-name' (name, price, color) VALUES (val1,val2,val3)

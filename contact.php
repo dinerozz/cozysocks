@@ -40,7 +40,7 @@
                     <div class="tab">
                         <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
                         <p><input placeholder="Phone..." oninput="this.className = ''"></p>
-                        <p><textarea placeholder="E-mail..." oninput="this.className = ''" ></textarea></p>
+                        <p><textarea placeholder="Message..." oninput="this.className = ''" ></textarea></p>
                     </div>
                 </div>
 

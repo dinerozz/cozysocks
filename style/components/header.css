@@ -1,13 +1,12 @@
 .header{
     width: 100%;
     position: relative;
-    z-index: 2 !important;
+    z-index: 20 !important;
     background-color: #fff;
     transition: background 0.4s, all 0.3s linear;
     box-shadow: 0px 10px 27px 3px rgb(221 221 221 / 30%);
 }
 .header-inner{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +23,7 @@
 .header-links ul li a{
     color: #222;
     font-size: 15px;
-    margin: 10px 0px 0px 26px;
+    padding: 10px 0px 0px 26px;
     font-weight: 700;
     text-decoration: none;
     transition: .5s;
@@ -62,6 +61,7 @@
     color: #007bff;
 }
 .header-button{
+    display: block;
     padding: 10px 45px;
     background: transparent;
     color: #222;

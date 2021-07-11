@@ -1,5 +1,9 @@
 <?php
-    include "config/database.php";
+    $db = new mysqli('localhost','root','','web97');
+
+    if($db->connect_error){
+        echo $db->connect_error;
+    }
     $id = $_GET['id'];
 
     $post_response = $db->query("SELECT * FROM `posts` WHERE id=$id;");
@@ -25,11 +29,15 @@
             <div class="details-inner">
                 <div class="details-items">
                     <div class="detail-img">
-                        <img src="<?php echo $post->img ?>" alt="">
+                        <div class="img-magnifier-container">
+                            <img id="myimage" src="<?php echo $post->img ?>" width="600" height="400" alt="Girl">
+                        </div>
                     </div>
                     <div class="detail-info">
                         <div class="detail-mob-img">
-                            <img src="<?php echo $post->img ?>" alt="">
+                        <div class="img-magnifier-container">
+                            <img id="myimage" src="<?php echo $post->img ?>" width="600" height="400" alt="Girl">
+                        </div>
                         </div>
                         <h2><?php echo $post->cost ?>₸</h2>
                         <h5>Выгодная цена!</h5>
@@ -58,7 +66,7 @@
                         <div class="buy-buttn"><a href=""><i class="fas fa-cart-arrow-down"></i>Купить</a></div>
                     </div>
                     <div class="buy-btn">
-                        <a href=""><i class="fas fa-cart-arrow-down"></i>Купить</a>
+                        <a href="https://www.instagram.com/cozysocks_kz/"><i class="fas fa-cart-arrow-down"></i>Купить</a>
                     </div>
                 </div>
                 <div class="details-description">
@@ -70,9 +78,11 @@
 
             </div>
         </div>
+
     </section>
 
     <?php include 'includes/footer.php'?>
     <?php include 'includes/libs/body-libs.php'?>
+    <script src="js/magnifier.js"></script>
 </body>
 </html>

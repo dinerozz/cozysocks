@@ -12,8 +12,32 @@ body{
 table td{
     margin-top: 0;
 }
-input, textarea{
-    width: 300px !important;
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #4f89d6;
+    background: linear-gradient(to top right, #3EC97A, #69EA49 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+    color: #222;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    border-radius: 4px;
+    text-align: center;
+    /* margin-top: 10px; */
+    display: block;
+    /* font: 14px/50px Tahoma; */
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #4f89d6;
+    background: linear-gradient(to top right, #3EC97A, #69EA49 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+    color: #222; 
 }
 table{
     border: 1px solid rgb(190, 185, 185);
@@ -51,9 +75,47 @@ td,th{
 }
 .card-image a{
     display: block;
-    width: 25%;
+    width: 23%;
     margin: 5px;
 }
 .card-image img{
     margin: 5px;
+    object-fit: cover;
+    /* width: 100%; */
+    width: 295px;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.img_label {
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    display: block;
+    font: 14px/50px Tahoma;
+    transition: all 0.18s ease-in-out;
+    border: 1px solid #4FD666;
+    background: linear-gradient(to top right, #3EC97A, #69EA49 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0)) top right/500% 500%;
+    color: #4FD666;
+}
+.img_label i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.img_label:hover {
+    color: white;
+    background-position: bottom left;
+}
+    
+.img {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
 }

@@ -1,22 +1,22 @@
 let pageVal = 1
 getAllPosts(pageVal)
-function getAllPosts(page){
-    $.ajax({
-        url: `products/get.php?page=${page}`
-    }).done(function(res){
-      
-        res=JSON.parse(res)
-        showAllPosts(res.posts)
-        showPreviewPosts(res.posts)
-        showAllPages(res.totalPages)
-        console.log(res);
-    })
+function getAllPosts(page) {
+  $.ajax({
+    url: `products/get.php?page=${page}`
+  }).done(function (res) {
+
+    res = JSON.parse(res)
+    showAllPosts(res.posts)
+    showPreviewPosts(res.posts)
+    showAllPages(res.totalPages)
+    console.log(res);
+  })
 }
 
-function showPreviewPosts(posts){
-    let output = ''
-    for(const post of posts){
-        output += `
+function showPreviewPosts(posts) {
+  let output = ''
+  for (const post of posts) {
+    output += `
                     <div class='feature-member'>
                         <div class='image-container'>
                             <img src='${post.img}'>
@@ -32,17 +32,17 @@ function showPreviewPosts(posts){
                             <a href='detail.php?id=${post.id}' class='details-button'><i class="fas fa-info-circle"></i> Details</a>
                             </div>
         `
-    }
-    $('#preview-posts').html(output)
+  }
+  $('#preview-posts').html(output)
 
 }
 
-function showAllPosts(posts){
-    let output = ''
-    let counter=0;
-    for(const post of posts){
-        counter++
-        output += `
+function showAllPosts(posts) {
+  let output = ''
+  let counter = 0;
+  for (const post of posts) {
+    counter++
+    output += `
         <div class='table-responsive'>
         <table class="table table-striped">
         <thead>
@@ -60,6 +60,7 @@ function showAllPosts(posts){
             <th><i class='far fa-eye'></i></th>
             <th><i class='far fa-heart'></i></th>
             <th><i class="far fa-comments"></i></th>
+            <th>Date</th>
           </tr>
         </thead>
 
@@ -78,6 +79,7 @@ function showAllPosts(posts){
             <td><p class='feedback'><span class='eye'></span> ${post.views} </p></td>
             <td><p class='feedback'><span class='heart'></span> ${post.likes} </p></td>
             <td><p class='feedback'><span class='message'></span> ${post.feed} </p><br></td>
+            <td><p>${post.date_time}</p></td> 
           </tr>
       
         </tbody>
@@ -89,20 +91,21 @@ function showAllPosts(posts){
         <a href='products/delete.php?id=${post.id}' class='btn btn-danger'><i class="fas fa-trash-alt"></i></a></div>
       </div>
         `
-    }
-  
-    $('#all-posts-admin').html(output)
+  }
+
+  $('#all-posts-admin').html(output)
 }
-function showAllPages(pages){
-    let output = ''
-    for(let i=1;i<=pages;i++){
-        output+=`
+function showAllPages(pages) {
+  let output = ''
+  for (let i = 1; i <= pages; i++) {
+    output += `
         <li class='page-item'><a class='page-link' href='#' onclick="showNext(${i})">${i}</a></li>
         `
-    }
-    $('#all-pages').html(output)
+  }
+  $('#all-pages').html(output)
+  $('#all-pages1').html(output)
 }
-function showNext(page){
-    pageVal = page
-    getAllPosts(pageVal)
+function showNext(page) {
+  pageVal = page
+  getAllPosts(pageVal)
 }

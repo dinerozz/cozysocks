@@ -27,12 +27,12 @@ $post = $post_response->fetch_object();
                     <input type="text" class="form-control" value="<?php echo $post->title ?>" name="edit-title" id="title" placeholder="Enter title">
                 </div>
             </div>
-            <!-- <div class="col-8">
+            <div class="col-8">
                 <div class="mb-3">
-                    <label for="image" class="form-label">Edit image</label>
-                    <input type="file" name="edit-image">
+                    <label for="image" class="form-label">Image</label>
+                    <img src="<?php echo $post->img ?>" width="410" alt="">
                 </div>
-            </div> -->
+            </div>
             <div class="col-8">
                 <div class="mb-3">
                     <label for="description" class="form-label">Description</label>

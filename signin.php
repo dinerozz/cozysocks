@@ -2,11 +2,8 @@
     session_start();
     require_once 'config/database.php';
 
-
-
     $login = $_POST['login'];
     $password = $_POST['password'];
-
 
     $error_fields = [];
     if($login === ''){

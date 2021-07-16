@@ -17,7 +17,7 @@ if (isset($_SESSION['user'])) {
 
 <body>
     <div class="form">
-        <form class="form-reg" method="post">
+        <form class="form-reg">
             <h1>Заполните поля</h1><br>
             <label>ФИО</label>
             <input type="text" name="full_name" placeholder="Enter your full name">

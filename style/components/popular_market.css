@@ -113,7 +113,8 @@
     width: 100%;
     /* width: 254px; */
     height: 398px;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     overflow: hidden;
 }
 .details-button{

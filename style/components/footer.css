@@ -121,6 +121,7 @@
     margin-bottom: 18px;
 }
 .footer-email input{
+    width: 100%;
     background: #151725;
     border-radius: 30px;
     outline: none;

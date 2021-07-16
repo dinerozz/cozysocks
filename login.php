@@ -18,7 +18,7 @@ if (isset($_SESSION['user'])) {
 
 <body>
     <div class="form">
-        <form class="form-reg" method="post">
+        <form class="form-reg">
             <label>Логин</label>
             <input type="text" name="login" placeholder="Enter login">
             <label>Пароль</label>

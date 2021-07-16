@@ -61,6 +61,8 @@
     font-size: 0;
     width: 50px;
     height: 70px;
+    border: none;
+    outline: none;
 }
 .slider .slick-arrow.slick-prev{
     left: 0;

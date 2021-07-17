@@ -68,7 +68,7 @@
 }
 .link-main a:hover{
     color: #222;
-    background: #fff;
+    background: transparent;
     transition: all .4s ease-in;
 }
 .link-main._active{

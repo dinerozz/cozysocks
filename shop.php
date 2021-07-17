@@ -13,12 +13,12 @@
 <section class="popular">
             <div class="container">
                 <div class="popular-inner">
-                    <p>Popular Item in the market</p><br>
-                    <h2>Trending <span class="section-intro__style">Product</span></h2>
+                    <p>Our Shop</p><br>
+                    <h2>Trending <span class="section-intro__style">Products</span></h2>
                     <div class="feature-items  _anim-items" id="preview-posts"></div>
                 </div>
 
-                <ul class="pagination pagination-lg justify-content-center" id="all-pages">
+                <ul class="pagination pagination-lg justify-content-center page-btn" id="all-pages">
                 </ul>
             </div>
         </section>

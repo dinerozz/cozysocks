@@ -66,11 +66,11 @@
 }
 .slider .slick-arrow.slick-prev{
     left: 0;
-    background: url('../../images/slides/left.png') 0 0 / 100% no-repeat;
+    background: url('../../images/slides/left-arrow.png') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next{
     right: 0;
-    background: url('../../images/slides/right.png') 0 0 / 100% no-repeat;
+    background: url('../../images/slides/right-arrow.png') 0 0 / 100% no-repeat;
 }
 .slider .slick-dots{
     display: flex;

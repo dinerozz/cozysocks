@@ -1,127 +1,165 @@
-.header{
-    width: 100%;
-    position: relative;
-    z-index: 20 !important;
-    background-color: #fff;
-    transition: background 0.4s, all 0.3s linear;
-    box-shadow: 0px 10px 27px 3px rgb(221 221 221 / 30%);
+.header {
+  width: 100%;
+  position: relative;
+  z-index: 20 !important;
+  background-color: #fff;
+  transition: background 0.4s, all 0.3s linear;
+  box-shadow: 0px 10px 27px 3px rgb(221 221 221 / 30%);
 }
-.header-inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.header-links ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* list-style: none; */
+.header-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* list-style: none; */
 }
-.shopping-cart{
-    color: #000;
+.shopping-cart {
+  color: #000;
 }
-.header-links ul li a{
-    color: #222;
-    font-size: 15px;
-    padding: 10px 0px 0px 26px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: .5s;
-    text-transform: uppercase;
-    outline: none;
+.header-links ul li a {
+  color: #222;
+  font-size: 15px;
+  padding: 10px 0px 0px 26px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.5s;
+  text-transform: uppercase;
+  outline: none;
 }
-.header-links ul li a:hover{
-    color: #007bff;
-    transition: .5s;
+.header-links ul li a:hover {
+  color: #007bff;
+  transition: 0.5s;
 }
-.header-logo img{
-    display: flex;
-    text-transform: uppercase;
-    width: 200px;
-    cursor: pointer;
+.header-logo img {
+  display: flex;
+  text-transform: uppercase;
+  width: 200px;
+  cursor: pointer;
 }
-.header-nav-shop{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-nav-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.nav-item button{
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: .3s;
+.nav-item button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.nav-item li i{
-    font-size: 16px;
-    color: #222;
+.nav-item li i {
+  font-size: 16px;
+  color: #222;
 }
-.nav-item button:hover{
-    transition: .3s;
-    color: #007bff;
+.nav-item button:hover {
+  transition: 0.3s;
+  color: #007bff;
 }
-.header-button{
-    display: block;
-    padding: 10px 45px;
-    background: transparent;
-    color: #222;
+.header-button {
+  display: block;
+  padding: 10px 45px;
+  background: transparent;
+  color: #222;
 }
-.button{
-    margin-left: 10px;
-    display: inline-block;
-    border: 1px solid #EEEEEE;
-    border-radius: 30px;
-    color: #222;
-    font-weight: 500;
-    padding: 12px 50px;
-    transition: all .4s ease;
-    text-decoration: none;
+.button {
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  border-radius: 30px;
+  color: #222;
+  font-weight: 500;
+  padding: 12px 50px;
+  transition: all 0.4s ease;
+  text-decoration: none;
 }
-.button:hover{
-    border: 1px solid #384aeb;
+.button:hover {
+  border: 1px solid #384aeb;
 }
-.active{
-    transform: translateY(0%) !important;
+.active {
+  transform: translateY(0%) !important;
 }
-.header-icon{
-    display: none
+.header-icon {
+  display: none;
 }
-.header-icon .line-1{
-    margin-bottom: 3px;
-    display: block;
-    width: 20px;
-    height: 3px;
-    background-color: #222;
-    transition: .5s;
+.header-icon .line-1 {
+  margin-bottom: 3px;
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #222;
+  transition: 0.5s;
 }
-.header-icon .line-2{
-    margin-bottom: 3px;
-    display: block;
-    width: 20px;
-    height: 3px;
-    background-color: #222;
-    transition: .5s;
+.header-icon .line-2 {
+  margin-bottom: 3px;
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #222;
+  transition: 0.5s;
 }
-.header-icon .line-3{
-    margin-bottom: 3px;
-    display: block;
-    width: 20px;
-    height: 3px;
-    background-color: #222;
-    transition: .5s;
+.header-icon .line-3 {
+  margin-bottom: 3px;
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: #222;
+  transition: 0.5s;
 }
-.span1-style{
-    transform: rotate(45deg);
-    transition: transform 0.5s;
-    position: absolute;
-    margin-top: 6px;
+.span1-style {
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+  position: absolute;
+  margin-top: 6px;
 }
-.span3-style{
-    transform: rotate(-45deg);
-    transition: transform 0.5s;
-    position: absolute;
+.span3-style {
+  transform: rotate(-45deg);
+  transition: transform 0.5s;
+  position: absolute;
 }
-.span2-style{
-    opacity: 0;
-    transition: .5s;
+.span2-style {
+  opacity: 0;
+  transition: 0.5s;
+}
+/* search bar */
+.myform {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 200px;
+  /* margin-top: 20px; */
+  float: right;
+}
+
+.myform__button:hover ~ .myform__input {
+  display: block;
+}
+.myform__button:focus ~ .myform__input {
+  display: block;
+}
+.myform__input:hover,
+.myform__input:focus {
+  display: block;
+}
+
+.myform__input {
+    transition: .8s;
+  width: 150px;
+  position: absolute;
+  margin-right: 30px;
+  transform: translate(0, -50%);
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid gray;
+  display: none;
+}
+
+.myform__button {
+  z-index: 10;
+  border: none;
+  cursor: pointer;
 }

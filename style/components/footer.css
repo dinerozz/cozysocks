@@ -141,7 +141,7 @@
 }
 .footer-email button{
     width: 100%;
-    border: 1px;
+    border: 1px solid #384aeb;
     margin-top: 20px;
     background: #384aeb;
     color: #ffffff;

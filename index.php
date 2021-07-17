@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -56,6 +56,28 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stats">
+            <div class="container">
+                <div class="stats-inner">
+                    <div class="stats-items">
+                        <h1>150+</h1>
+                        <h3>Employees</h3>
+                    </div>
+                    <div class="stats-items">
+                        <h1>85%</h1>
+                        <h3>Of people feel happier using our socks</h3>
+                    </div>
+                    <div class="stats-items">
+                        <h1>500k+</h1>
+                        <h3>Finished Deals</h3>
+                    </div>
+                    <div class="stats-items">
+                        <h1>70k+</h1>
+                        <h3>5 Star Rating</h3>
                     </div>
                 </div>
             </div>

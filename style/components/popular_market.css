@@ -180,3 +180,14 @@
     margin: 3px;
     text-align: left;
 }
+.pagination li a:hover{
+    color: #222;
+}
+.pagination li a:active{
+    border: none;
+    outline: none;
+}
+.pagination li a{
+    color: #fff;
+    background-color: rgb(160, 194, 238);
+}

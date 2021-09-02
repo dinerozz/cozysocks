@@ -19,9 +19,9 @@
   }
 }
 @media screen and (max-width: 768px) {
-  /* body {
+  body {
     overflow-x: hidden !important;
-  } */
+  }
   .header-links ul {
     position: absolute;
     height: 350px;
@@ -211,7 +211,7 @@
         overflow-x:hidden !important;
         width:100% !important;
     } */
-  /* body {
+  body {
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -219,7 +219,7 @@
   }
   html {
     overflow-x: hidden;
-  } */
+  }
   .buy-btn a {
     display: none !important;
   }
@@ -249,13 +249,17 @@
     width: 100% !important;
     margin-bottom: 30px;
   }
+  .feature-items{
+    transform: none !important;
+    opacity: 1 !important;
+  }
 }
 @media screen and (max-width: 375px) {
   /* body{
         overflow-x: hidden !important;
         width:100% !important;
     } */
-  /* body {
+  body {
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -263,7 +267,11 @@
   }
   html {
     overflow-x: hidden;
-  } */
+  }
+  .feature-items{
+    transform: none !important;
+    opacity: 1 !important;
+  }
   .img-magnifier-glass {
     width: 30px !important;
     height: 30px !important;
@@ -433,7 +441,7 @@
         overflow-x: hidden !important;
         width:100% !important;
     } */
-  /* body {
+  body {
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -441,7 +449,11 @@
   }
   html {
     overflow-x: hidden;
-  } */
+  }
+  .feature-items{
+    transform: none !important;
+    opacity: 1 !important;
+  }
   .feature-member {
     width: 500px !important;
     height: 680px !important;
@@ -607,7 +619,7 @@
         overflow-x: hidden !important;
         width:100% !important;
     } */
-  /* body {
+  body {
     position: relative;
     width: 100%;
     overflow-x: hidden;
@@ -615,7 +627,11 @@
   }
   html {
     overflow-x: hidden;
-  } */
+  }
+  .feature-items{
+    transform: none !important;
+    opacity: 1 !important;
+  }
   .header-nav-shop {
     display: none !important;
   }

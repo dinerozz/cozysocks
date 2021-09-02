@@ -36,4 +36,4 @@
     } else {
       echo "Error: " . $sql . "<br>" . $db->error;
     }
-    header("Location: /final_proj/admin.php");
+    header("Location: /my-site/admin.php");

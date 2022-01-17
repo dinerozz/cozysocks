@@ -63,9 +63,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    transform: scale(0);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
+    /* transform: scale(0); */
+    opacity: 1;
+    /* transition: all 0.8s ease 0s; */
     overflow: hidden;
     background: transparent;
     margin: 5px;
@@ -92,17 +92,12 @@
     text-align: center;
     margin-bottom: 10px;
 }
-/* .image-container img{
-    width: 100%;
-    overflow: hidden;
-    text-align: center;
-} */
 
-.feature-items._active{
+/* .feature-items._active{
     transition: 0.8s;
     transform: scale(1);
     opacity: 1;
-}
+} */
 .image-container{
     width: 100%;
     cursor: pointer;

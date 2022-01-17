@@ -5,6 +5,6 @@
     // unlink($prod_path);
     // $prod_path = 'uploads/product-cards/' . time() . $_FILES['image']['name'];     unlink($prod_path);
 
-    header("Location: /cozysocks/admin.php");
+    header("Location: ../admin.php");
 
 ?>

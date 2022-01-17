@@ -18,13 +18,12 @@
                 <h3 class="contact-title">Contact</h3>
                 <p>For all enquiries, please email us using the form below.</p>
             </div>
-            <form id="contactForm">
+            <form id="contactForm" action="send.php" method="post">
                 <label for="">Что Вас интересует?</label><br>
                 <div class="select_centered">
                     <div class="custom-select">
                         <div class="tab">
-                            <select name="" id="">
-                                <option value="0">Select question</option>
+                            <select name="select_question" id="">
                                 <option value="1">О доставке в регионы</option>
                                 <option value="2">Ценовая политика</option>
                                 <option value="3">Наличие товара</option>
@@ -34,13 +33,13 @@
                         </div>
                     </div>
                     <div class="tab">
-                        <p><input placeholder="First name..." oninput="this.className = ''"></p>
-                        <p><input placeholder="Last name..." oninput="this.className = ''"></p>
+                        <p><input name="first_name" placeholder="First name..." oninput="this.className = ''"></p>
+                        <p><input name="last_name" placeholder="Last name..." oninput="this.className = ''"></p>
                     </div>
                     <div class="tab">
-                        <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
-                        <p><input placeholder="Phone..." oninput="this.className = ''"></p>
-                        <p><textarea placeholder="Message..." oninput="this.className = ''" ></textarea></p>
+                        <p><input name="email" placeholder="E-mail..." oninput="this.className = ''"></p>
+                        <p><input name="phonenumber" placeholder="Phone..." oninput="this.className = ''"></p>
+                        <p><textarea name="message" placeholder="Message..." oninput="this.className = ''" ></textarea></p>
                     </div>
                 </div>
 
@@ -61,6 +60,7 @@
                             
                     </div>
                 </div> -->
+                <!-- <button type="submit" name="submit" value="Submit">Отправить</button> -->
             </form>
         </div>
     </div>

@@ -12,7 +12,7 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("nextBtn").innerHTML = `<button type="submit" name="submit" value="Submit">Отправить</button>`;
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
   }
@@ -33,7 +33,7 @@ function nextPrev(n) {
   if (currentTab >= x.length) {
     //...the form gets submitted:
     document.getElementById("contactForm").submit();
-    alert("Thanks for your message :)")
+    // alert("Thanks for your message :)")
     return false;
   }
   // Otherwise, display the correct tab:

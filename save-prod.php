@@ -36,4 +36,4 @@
     } else {
       echo "Error: " . $sql . "<br>" . $db->error;
     }
-    header("Location: /cozysocks/admin.php");
+    header("Location: admin.php");

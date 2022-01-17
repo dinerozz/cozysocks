@@ -71,13 +71,14 @@
         }
 
         $password = md5($password . "haSsdaad123");
-        mysqli_query($db, "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, 
-        `password`, `avatar`) VALUES (NULL, '$full_name', '$login', '$email', '$password', '$path')");
+        
+        $sql = "INSERT INTO `users` (`id`, `full_name`, `login`, `email`, 
+        `password`, `avatar`) VALUES (NULL, '$full_name', '$login', '$email', '$password', '$path')";
 
             $response = [
                 "status" => true,
                 "message" => "Регистрация прошла успешно!",
-            ];
+            ];  
     }
     else{
         $response = [

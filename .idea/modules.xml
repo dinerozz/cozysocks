@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/final_proj.iml" filepath="$PROJECT_DIR$/.idea/final_proj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cozysocks.iml" filepath="$PROJECT_DIR$/.idea/cozysocks.iml" />
     </modules>
   </component>
 </project>

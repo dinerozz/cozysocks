@@ -87,7 +87,7 @@
                 <div class="popular-inner">
                     <p>Popular Item in the market</p><br>
                     <h2>Trending <span class="section-intro__style">Product</span></h2>
-                    <div class="feature-items  _anim-items" id="preview-posts"></div>
+                    <div class="feature-items" id="preview-posts"></div>
                 </div>
 
                 <!-- <ul class="pagination pagination-lg justify-content-center" id="all-pages">

@@ -5,7 +5,6 @@ if (!$_SESSION['user']) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +12,7 @@ if (!$_SESSION['user']) {
     <?php include 'includes/libs/head-libs.php'; ?>
     <link rel="stylesheet" href="style/components/admin.css">
     <link rel="stylesheet" href="style/components/popular_market.css">
-    <title>Admin</title>
+    <title>Admin panel</title>
 </head>
 
 <body>
